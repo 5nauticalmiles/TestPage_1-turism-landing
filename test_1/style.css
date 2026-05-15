@@ -1,0 +1,162 @@
+body {
+    font-family: 'Geologica', sans-serif;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #F4FFDA;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+.start {
+    padding: 40px;
+    padding-right: 25%;
+    margin-top: 100px;
+}
+
+.start h3 {
+    font-size: 40px;
+}
+
+.start p {
+    font-size: 30px;
+}
+
+.turkiye {
+    background-color: #BDF8E5;
+    padding: 40px;
+    margin: 150px 0px 50px 0px;
+}
+
+.heading {
+    font-size: 50px;
+}
+
+.tu-content {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    padding-right: 25%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    gap: 30px;
+}
+
+.image {
+    width: 100%;
+}
+
+.price {
+    background-color: black;
+    color: white;
+    margin-right: 80%;
+    padding: 1px 20px 1px 20px;
+}
+
+.egypt {
+    background-color: #FFDBA1;
+    padding: 40px;
+    margin: 150px 0px 50px 0px;
+}
+
+.eg-content {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    padding-right: 25%;
+    margin-bottom: 40px;
+    font-size: 25px;
+    gap: 30px;
+}
+
+.sochi {
+    background-color: #B8CFC4;
+    padding: 40px;
+    margin: 150px 0px 150px 0px;
+}
+
+.so-content {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    padding-right: 25%;
+    margin-bottom: 40px;
+    font-size: 25px;
+    gap: 30px;
+}
+
+footer {
+    background-color: #150B3B;
+    color: white;
+    padding: 40px;
+    font-size: 25px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.credits {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts {
+    position: fixed;
+    background-color: #D9D9D980;
+    right: 40px;
+    width: 15%;
+    height: 350px;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.contacts a {
+    display: block;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.whatsapp::before {
+    content: "";
+    display: inline-block;
+    width: 45px;   
+    height: 45px;
+    background-image: url('images/WhatsApp.svg.webp'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px; 
+    vertical-align: middle;
+}
+
+.tg::before {
+    content: "";
+    display: inline-block;
+    width: 45px;   
+    height: 45px;
+    background-image: url('images/Telegram_logo.svg.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px; 
+    vertical-align: middle;
+}
+
+.vk::before {
+    content: "";
+    display: inline-block;
+    width: 45px;   
+    height: 45px;
+    background-image: url('images/VK_Compact_Logo_\(2021-present\).svg.webp'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px; 
+    vertical-align: middle;
+}
